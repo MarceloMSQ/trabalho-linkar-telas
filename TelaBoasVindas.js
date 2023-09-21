@@ -5,7 +5,7 @@ const TelaBoasVindas = () => {
   return (
     <View style={styles.container}>
       <Text>Bem-vindo à próxima tela!</Text>
-      <Text>Pensando no que fazer!</Text>
+      <Text>Pensando no que fazer</Text>
     </View>
   );
 };
