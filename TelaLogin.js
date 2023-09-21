@@ -17,7 +17,7 @@ const TelaLogin = ({ navigation }) => {
   return (
     <View style={styles.container}>
        <Image
-        source={require('assets\destiny_2.png')} // Ajuste o caminho conforme sua estrutura de pastas
+        source={require('./assets/destiny2.png')} // Ajuste o caminho conforme sua estrutura de pastas
         style={styles.logo}
       />
       <TextInput
@@ -49,6 +49,13 @@ const styles = StyleSheet.create({
     padding: 10,
     borderColor: 'gray',
     borderWidth: 1,
+  },
+  logo: {
+    alignSelf: 'center',
+    width: 300,
+    height: 300,
+    marginBottom: 20,
+    borderRadius: 50,
   },
 });
 
