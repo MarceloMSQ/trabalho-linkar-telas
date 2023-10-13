@@ -58,19 +58,19 @@ const styles = StyleSheet.create({
   cardText: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: 'white', // Cor do texto
+    color: 'white', 
   },
   galeriaCard: {
-    backgroundColor: '#7C65AD', // Cor de fundo para a Galeria
+    backgroundColor: '#7C65AD', 
   },
   infoCard: {
-    backgroundColor: '#685F7A', // Cor de fundo para Informações Pessoais
+    backgroundColor: '#685F7A', 
   },
   detalhesCard: {
-    backgroundColor: '#8356E1', // Cor de fundo para Detalhes de Fotos
+    backgroundColor: '#8356E1', 
   },
   listaProdutosCard: {
-    backgroundColor: '#3F3B47', // Cor de fundo para Lista de Produtos
+    backgroundColor: '#3F3B47', 
   },
 });
 

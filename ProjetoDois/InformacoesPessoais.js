@@ -21,8 +21,6 @@ const InformacoesPessoais = () => {
         <Text style={styles.infoLabel}>E-mail:</Text>
         <Text style={styles.infoText}>contato.mmsq@gmail.com</Text>
       </View>
-      
-      {/* Adicione mais informações pessoais conforme necessário */}
     </View>
   );
 };

@@ -43,11 +43,11 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     padding: 20,
     marginBottom: 10,
-    alignSelf: 'center',  // Para centralizar a imagem
+    alignSelf: 'center',  
   },
   image: {
-    width: 200,  // Tamanho da imagem
-    height: 200, // Tamanho da imagem
+    width: 200, 
+    height: 200,
     borderRadius: 10,
   },
 });
