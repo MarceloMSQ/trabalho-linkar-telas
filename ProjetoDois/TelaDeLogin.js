@@ -17,7 +17,7 @@ const TelaLogin = ({ navigation }) => {
   return (
     <View style={styles.container}>
        <Image
-        source={require('./assets/destiny2.png')} // Ajuste o caminho conforme sua estrutura de pastas
+        source={require('./assets/destiny2.png')} 
         style={styles.logo}
       />
       <TextInput
