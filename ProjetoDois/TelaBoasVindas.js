@@ -13,10 +13,7 @@ const TelaBoasVindas = () => {
     navigation.navigate('InformacoesPessoais');
   };
 
-  const navigateToDetalhesFotos = () => {
-    navigation.navigate('DetalhesFotos');
-  };
-
+  
   const navigateToListaProdutos = () => {
     navigation.navigate('ListaProdutos');
   };
@@ -32,9 +29,6 @@ const TelaBoasVindas = () => {
         </TouchableOpacity>
       </View>
       <View style={styles.row}>
-        <TouchableOpacity style={[styles.card, styles.detalhesCard]} onPress={navigateToDetalhesFotos}>
-          <Text style={styles.cardText}>Detalhes de Fotos</Text>
-        </TouchableOpacity>
         <TouchableOpacity style={[styles.card, styles.listaProdutosCard]} onPress={navigateToListaProdutos}>
           <Text style={styles.cardText}>Lista de Produtos</Text>
         </TouchableOpacity>
@@ -67,16 +61,16 @@ const styles = StyleSheet.create({
     color: 'white', // Cor do texto
   },
   galeriaCard: {
-    backgroundColor: '#D845DE', // Cor de fundo para a Galeria
+    backgroundColor: '#7C65AD', // Cor de fundo para a Galeria
   },
   infoCard: {
-    backgroundColor: '#9716E1', // Cor de fundo para Informações Pessoais
+    backgroundColor: '#685F7A', // Cor de fundo para Informações Pessoais
   },
   detalhesCard: {
-    backgroundColor: '#e74c3c', // Cor de fundo para Detalhes de Fotos
+    backgroundColor: '#8356E1', // Cor de fundo para Detalhes de Fotos
   },
   listaProdutosCard: {
-    backgroundColor: '#f39c12', // Cor de fundo para Lista de Produtos
+    backgroundColor: '#3F3B47', // Cor de fundo para Lista de Produtos
   },
 });
 

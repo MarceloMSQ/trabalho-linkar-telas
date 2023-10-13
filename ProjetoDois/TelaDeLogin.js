@@ -33,7 +33,7 @@ const TelaLogin = ({ navigation }) => {
         value={password}
         onChangeText={setPassword}
       />
-      <Button title="Login" onPress={handleLogin} />
+      <Button title="Login" onPress={handleLogin} color="#7C65AD"/>
     </View>
   );
 };

@@ -6,6 +6,8 @@ import TelaLogin from './TelaDeLogin';
 import TelaBoasVindas from './TelaBoasVindas';
 import GaleriaScreen from '../ProjetoDois/GaleriaScreen';
 import DetalhesFotoScreen from './DetalhesFotoScreen';
+import InformacoesPessoais from './/InformacoesPessoais';
+import ListaProdutos from './ListaProdutos';
 
 
 const Stack = createStackNavigator();
@@ -18,7 +20,8 @@ const App = () => {
         <Stack.Screen name="Welcome" component={TelaBoasVindas} />
         <Stack.Screen name="Galeria" component={GaleriaScreen} />
         <Stack.Screen name="DetalhesFoto" component={DetalhesFotoScreen} />
-       
+        <Stack.Screen name="InformacoesPessoais" component={InformacoesPessoais} />
+        <Stack.Screen name="ListaProdutos" component={ListaProdutos} />
       </Stack.Navigator>
     </NavigationContainer>
   );
